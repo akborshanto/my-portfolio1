@@ -1,0 +1,87 @@
+body{
+ font-family: 'Open Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #474747;
+
+}
+
+.btn-orange{
+
+width: 100px;
+padding: 15px;
+background-color: #FD6E0A;
+color: white;
+border: none;
+outline:none;
+border-radius: 5px;
+
+}
+.btn-orange:hover{
+    background-color:#fd6f0a8f;
+    color: white;
+}
+/* Shared color */
+.orange{
+
+    color:  #FD6E0A;
+
+
+}
+.black{
+   color:  #474747;
+}
+
+
+
+/* nav related Styles..... */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav h1{
+    font-size: 40px;
+}
+nav > ul{
+    display: flex;
+gap: 30px;
+align-items: center;
+}
+/* header -serction */
+.header{
+    background-color: #FFF8F3;
+
+
+}
+.banner{
+
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+
+}
+.banner >img{
+    width: 584px;
+    height: 676px;
+}
+
+.banner img{
+    width: 400px;
+   height: 100%;
+}
+.banner-content h1,p{
+
+    margin-bottom: 10px;
+}
