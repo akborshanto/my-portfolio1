@@ -103,7 +103,7 @@ justify-content: space-between;
 .about{
     background-color: #EEDFD4;
  
-    width: 920px;
+   width: 900px;
     height: 500px;
     margin: 60px auto;
 }
@@ -137,4 +137,22 @@ color: #474747;
 .about-information h1{
 color:black;
 font-family:10px;
+}
+/* language section */
+.language-section{
+    padding: 10px  190px;
+}
+.laguage-card{
+    display: flex;
+    justify-content: center;
+   
+}
+.card{
+    width: 240;
+    height: 377px;
+    padding: 20px;
+}
+.card .icon >img{
+    width: 30px;
+    margin-bottom: 10px;
 }
