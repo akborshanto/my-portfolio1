@@ -96,3 +96,45 @@ justify-content: space-between;
     max-width: 500px;
 }
 /* abour -inforamtion */
+/* main{
+    padding: 10px 200px;
+    margin-top: 20px;
+} */
+.about{
+    background-color: #EEDFD4;
+ 
+    width: 920px;
+    height: 500px;
+    margin: 60px auto;
+}
+.about-text{
+    text-align: center;
+padding: 60px 200px;
+width: 837px;
+height: 288px;
+
+}
+.about-information{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 50px;
+}
+.about-text h1{
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.about-text p{
+    font-size: 14px ;
+    color: #757575;
+   
+}
+.about-information  h4{
+font-size: 16px;
+color: #474747;
+    
+}
+.about-information h1{
+color:black;
+font-family:10px;
+}
