@@ -145,14 +145,89 @@ font-family:10px;
 .laguage-card{
     display: flex;
     justify-content: center;
+    gap: 20px;
    
 }
 .card{
-    width: 240;
+ border-radius: 5px;
     height: 377px;
     padding: 20px;
+    background-color: wheat;
 }
 .card .icon >img{
     width: 30px;
+    margin-bottom: 10px;
+}
+/* Roumesee */
+.about-texts{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.resume-section{
+
+   margin: 40px auto;
+   padding: 0 70px;
+}
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.resume-btn{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+/* footer section */
+footer{
+    margin-top: 60px;
+    /* display: flex;
+    justify-content: space-around; */
+    background-color: #757575;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    align-items: center;
+}
+.icon-section{
+    display: flex;
+    justify-content: start;
+}
+.icon-section img{
+    width: 20px;
+    height: 20px;
+
+}
+.connect h1, p{
+    margin-bottom: 15px;
+}
+.form-section{
+    margin-top: 50px;
+}
+.form-section input{
+
+
+outline: none;
+border: none;
+margin-bottom: 23px;
+padding: 20px ;
+width: 300px;
+border-radius: 4px;
+}
+textarea{
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
     margin-bottom: 10px;
 }
